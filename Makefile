@@ -14,5 +14,3 @@ balanced.o:
 test: balanced.o
 	g++ $(CXXFLAGS) *.o balancedTest.cpp -o balancedTest
 	./balancedTest
-	gcov balanced.cpp
-
