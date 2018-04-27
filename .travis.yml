@@ -12,5 +12,5 @@ notifications:
 before_install:
   - pip install --user cpp-coveralls
 
-after_success:
+after_script:
   - coveralls --include "balanced.cpp" --gcov-options '\-lp'
