@@ -41,8 +41,6 @@ bool isBalanced(const std::string &text){
   }
   
   // NOTE: the if block here fixes the failing test in the starter code
-  if(!unmatched.empty()){
-    return false;
-  }
+
   return true;
 }
